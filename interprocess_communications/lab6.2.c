@@ -9,10 +9,9 @@
 int main(int argc, char* argv[]) {
     int pid;
     int pipefd[2];
-    int err;
+    unsigned int val = 0;
 
-    err = pipe(pipefd);
-    if (err == -1) {
+    if (pipe(pipefd) == -1) {
         perror("pipe() failed!\n");
         return ERROR;
     }
@@ -20,22 +19,27 @@ int main(int argc, char* argv[]) {
     pid = fork();
 
     if (pid == 0) {
-        char buff[SIZE];
+        unsigned int vals[SIZE];
         close(pipefd[1]);
         while(1) {
-            read(pipefd[0], buff, sizeof(buff));
-            printf("Child received: \"%s\"\n", buff);
-            sleep(1);
+            for (int i = 0; i < SIZE; i++) {
+                read(pipefd[0], vals, sizeof(vals));
+                printf("Child received: '%u'\n", vals[i]);
+                sleep(1);
+            }
         }
         close(pipefd[0]);
     }
     else if (pid > 0) {
-        char buff[] = "Hello from parent!\n";
+        unsigned int vals[SIZE];
         close(pipefd[0]);
         while(1) {
-            printf("Parent sending: \"%s\"\n", buff);
-            write(pipefd[1], buff, sizeof(buff));
-            sleep(1);
+            for (int i = 0; i < SIZE; i++) {
+                vals[i] = val++;
+                printf("Parent sending: '%u'\n", vals[i]);
+                write(pipefd[1], vals, sizeof(vals));
+                sleep(1);
+            }
         }
         close(pipefd[1]);
     }

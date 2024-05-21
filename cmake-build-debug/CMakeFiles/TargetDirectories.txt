@@ -9,5 +9,6 @@ F:/NSU/OS/cmake-build-debug/CMakeFiles/lab5.2.2.dir
 F:/NSU/OS/cmake-build-debug/CMakeFiles/lab6.1.1.dir
 F:/NSU/OS/cmake-build-debug/CMakeFiles/lab6.1.2.dir
 F:/NSU/OS/cmake-build-debug/CMakeFiles/lab6.2.dir
+F:/NSU/OS/cmake-build-debug/CMakeFiles/lab8.dir
 F:/NSU/OS/cmake-build-debug/CMakeFiles/edit_cache.dir
 F:/NSU/OS/cmake-build-debug/CMakeFiles/rebuild_cache.dir

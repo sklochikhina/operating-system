@@ -403,6 +403,39 @@ build lab6.2.exe: C_EXECUTABLE_LINKER__lab6.2e2_Debug CMakeFiles/lab6.2.dir/inte
   TARGET_IMPLIB = liblab6.2.dll.a
   TARGET_PDB = lab6.2.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target lab8
+
+
+#############################################
+# Order-only phony target for lab8
+
+build cmake_object_order_depends_target_lab8: phony || CMakeFiles/lab8.dir
+
+build CMakeFiles/lab8.dir/users/lab8.c.obj: C_COMPILER__lab8_unscanned_Debug F$:/NSU/OS/users/lab8.c || cmake_object_order_depends_target_lab8
+  DEP_FILE = CMakeFiles\lab8.dir\users\lab8.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\lab8.dir
+  OBJECT_FILE_DIR = CMakeFiles\lab8.dir\users
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lab8
+
+
+#############################################
+# Link the executable lab8.exe
+
+build lab8.exe: C_EXECUTABLE_LINKER__lab8_Debug CMakeFiles/lab8.dir/users/lab8.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\lab8.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = lab8.exe
+  TARGET_IMPLIB = liblab8.dll.a
+  TARGET_PDB = lab8.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -451,6 +484,8 @@ build lab6.1.2: phony lab6.1.2.exe
 
 build lab6.2: phony lab6.2.exe
 
+build lab8: phony lab8.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -459,7 +494,7 @@ build lab6.2: phony lab6.2.exe
 #############################################
 # Folder: F:/NSU/OS/cmake-build-debug
 
-build all: phony lab3.1.exe lab3.2.exe lab4.1.exe lab4.2.1.exe lab4.2.2.exe lab5.1.exe lab5.2.1.exe lab5.2.2.exe lab6.1.1.exe lab6.1.2.exe lab6.2.exe
+build all: phony lab3.1.exe lab3.2.exe lab4.1.exe lab4.2.1.exe lab4.2.2.exe lab5.1.exe lab5.2.1.exe lab5.2.2.exe lab6.1.1.exe lab6.1.2.exe lab6.2.exe lab8.exe
 
 # =============================================================================
 # Built-in targets

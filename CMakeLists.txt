@@ -17,3 +17,7 @@ add_executable(lab5.2.2 "processes/lab5.2.2.c")
 add_executable(lab6.1.1 "interprocess_communications/lab6.1.1.c")
 add_executable(lab6.1.2 "interprocess_communications/lab6.1.2.c")
 add_executable(lab6.2 "interprocess_communications/lab6.2.c")
+
+
+
+add_executable(lab8 "users/lab8.c")
