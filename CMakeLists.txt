@@ -47,6 +47,8 @@ add_executable(second.lab1.4.2 "semester_two/threads/lab1.4/cleanup.c")
 
 add_executable(second.lab1.5 "semester_two/threads/lab1.5/signals.c")
 
-add_executable(second.lab1.6 "semester_two/threads/lab1.6/create_mythread.c")
+add_executable(second.lab1.6.1 "semester_two/threads/lab1.6/create_mythread.c")
+add_executable(second.lab1.6.2 "semester_two/threads/lab1.6/mythreads.c")
 
-add_executable(second.lab1.7 "semester_two/threads/lab1.7/create_user_thread.c")
+add_executable(second.lab1.7.1 "semester_two/threads/lab1.7/create_user_thread.c")
+add_executable(second.lab1.7.2 "semester_two/threads/lab1.7/user_threads.c")

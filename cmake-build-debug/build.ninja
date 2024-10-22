@@ -965,70 +965,136 @@ build second.lab1.5.exe: C_EXECUTABLE_LINKER__second.2elab1.2e5_Debug CMakeFiles
   TARGET_PDB = second.lab1.5.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target second.lab1.6
+# Object build statements for EXECUTABLE target second.lab1.6.1
 
 
 #############################################
-# Order-only phony target for second.lab1.6
+# Order-only phony target for second.lab1.6.1
 
-build cmake_object_order_depends_target_second.lab1.6: phony || .
+build cmake_object_order_depends_target_second.lab1.6.1: phony || .
 
-build CMakeFiles/second.lab1.6.dir/semester_two/threads/lab1.6/create_mythread.c.obj: C_COMPILER__second.2elab1.2e6_unscanned_Debug F$:/NSU/OS/semester_two/threads/lab1.6/create_mythread.c || cmake_object_order_depends_target_second.lab1.6
-  DEP_FILE = CMakeFiles\second.lab1.6.dir\semester_two\threads\lab1.6\create_mythread.c.obj.d
+build CMakeFiles/second.lab1.6.1.dir/semester_two/threads/lab1.6/create_mythread.c.obj: C_COMPILER__second.2elab1.2e6.2e1_unscanned_Debug F$:/NSU/OS/semester_two/threads/lab1.6/create_mythread.c || cmake_object_order_depends_target_second.lab1.6.1
+  DEP_FILE = CMakeFiles\second.lab1.6.1.dir\semester_two\threads\lab1.6\create_mythread.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\second.lab1.6.dir
-  OBJECT_FILE_DIR = CMakeFiles\second.lab1.6.dir\semester_two\threads\lab1.6
+  OBJECT_DIR = CMakeFiles\second.lab1.6.1.dir
+  OBJECT_FILE_DIR = CMakeFiles\second.lab1.6.1.dir\semester_two\threads\lab1.6
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target second.lab1.6
+# Link build statements for EXECUTABLE target second.lab1.6.1
 
 
 #############################################
-# Link the executable second.lab1.6.exe
+# Link the executable second.lab1.6.1.exe
 
-build second.lab1.6.exe: C_EXECUTABLE_LINKER__second.2elab1.2e6_Debug CMakeFiles/second.lab1.6.dir/semester_two/threads/lab1.6/create_mythread.c.obj
+build second.lab1.6.1.exe: C_EXECUTABLE_LINKER__second.2elab1.2e6.2e1_Debug CMakeFiles/second.lab1.6.1.dir/semester_two/threads/lab1.6/create_mythread.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\second.lab1.6.dir
+  OBJECT_DIR = CMakeFiles\second.lab1.6.1.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = second.lab1.6.exe
-  TARGET_IMPLIB = libsecond.lab1.6.dll.a
-  TARGET_PDB = second.lab1.6.exe.dbg
+  TARGET_FILE = second.lab1.6.1.exe
+  TARGET_IMPLIB = libsecond.lab1.6.1.dll.a
+  TARGET_PDB = second.lab1.6.1.exe.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target second.lab1.7
+# Object build statements for EXECUTABLE target second.lab1.6.2
 
 
 #############################################
-# Order-only phony target for second.lab1.7
+# Order-only phony target for second.lab1.6.2
 
-build cmake_object_order_depends_target_second.lab1.7: phony || .
+build cmake_object_order_depends_target_second.lab1.6.2: phony || .
 
-build CMakeFiles/second.lab1.7.dir/semester_two/threads/lab1.7/create_user_thread.c.obj: C_COMPILER__second.2elab1.2e7_unscanned_Debug F$:/NSU/OS/semester_two/threads/lab1.7/create_user_thread.c || cmake_object_order_depends_target_second.lab1.7
-  DEP_FILE = CMakeFiles\second.lab1.7.dir\semester_two\threads\lab1.7\create_user_thread.c.obj.d
+build CMakeFiles/second.lab1.6.2.dir/semester_two/threads/lab1.6/mythreads.c.obj: C_COMPILER__second.2elab1.2e6.2e2_unscanned_Debug F$:/NSU/OS/semester_two/threads/lab1.6/mythreads.c || cmake_object_order_depends_target_second.lab1.6.2
+  DEP_FILE = CMakeFiles\second.lab1.6.2.dir\semester_two\threads\lab1.6\mythreads.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\second.lab1.7.dir
-  OBJECT_FILE_DIR = CMakeFiles\second.lab1.7.dir\semester_two\threads\lab1.7
+  OBJECT_DIR = CMakeFiles\second.lab1.6.2.dir
+  OBJECT_FILE_DIR = CMakeFiles\second.lab1.6.2.dir\semester_two\threads\lab1.6
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target second.lab1.7
+# Link build statements for EXECUTABLE target second.lab1.6.2
 
 
 #############################################
-# Link the executable second.lab1.7.exe
+# Link the executable second.lab1.6.2.exe
 
-build second.lab1.7.exe: C_EXECUTABLE_LINKER__second.2elab1.2e7_Debug CMakeFiles/second.lab1.7.dir/semester_two/threads/lab1.7/create_user_thread.c.obj
+build second.lab1.6.2.exe: C_EXECUTABLE_LINKER__second.2elab1.2e6.2e2_Debug CMakeFiles/second.lab1.6.2.dir/semester_two/threads/lab1.6/mythreads.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\second.lab1.7.dir
+  OBJECT_DIR = CMakeFiles\second.lab1.6.2.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = second.lab1.7.exe
-  TARGET_IMPLIB = libsecond.lab1.7.dll.a
-  TARGET_PDB = second.lab1.7.exe.dbg
+  TARGET_FILE = second.lab1.6.2.exe
+  TARGET_IMPLIB = libsecond.lab1.6.2.dll.a
+  TARGET_PDB = second.lab1.6.2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target second.lab1.7.1
+
+
+#############################################
+# Order-only phony target for second.lab1.7.1
+
+build cmake_object_order_depends_target_second.lab1.7.1: phony || .
+
+build CMakeFiles/second.lab1.7.1.dir/semester_two/threads/lab1.7/create_user_thread.c.obj: C_COMPILER__second.2elab1.2e7.2e1_unscanned_Debug F$:/NSU/OS/semester_two/threads/lab1.7/create_user_thread.c || cmake_object_order_depends_target_second.lab1.7.1
+  DEP_FILE = CMakeFiles\second.lab1.7.1.dir\semester_two\threads\lab1.7\create_user_thread.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\second.lab1.7.1.dir
+  OBJECT_FILE_DIR = CMakeFiles\second.lab1.7.1.dir\semester_two\threads\lab1.7
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target second.lab1.7.1
+
+
+#############################################
+# Link the executable second.lab1.7.1.exe
+
+build second.lab1.7.1.exe: C_EXECUTABLE_LINKER__second.2elab1.2e7.2e1_Debug CMakeFiles/second.lab1.7.1.dir/semester_two/threads/lab1.7/create_user_thread.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\second.lab1.7.1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = second.lab1.7.1.exe
+  TARGET_IMPLIB = libsecond.lab1.7.1.dll.a
+  TARGET_PDB = second.lab1.7.1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target second.lab1.7.2
+
+
+#############################################
+# Order-only phony target for second.lab1.7.2
+
+build cmake_object_order_depends_target_second.lab1.7.2: phony || .
+
+build CMakeFiles/second.lab1.7.2.dir/semester_two/threads/lab1.7/user_threads.c.obj: C_COMPILER__second.2elab1.2e7.2e2_unscanned_Debug F$:/NSU/OS/semester_two/threads/lab1.7/user_threads.c || cmake_object_order_depends_target_second.lab1.7.2
+  DEP_FILE = CMakeFiles\second.lab1.7.2.dir\semester_two\threads\lab1.7\user_threads.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\second.lab1.7.2.dir
+  OBJECT_FILE_DIR = CMakeFiles\second.lab1.7.2.dir\semester_two\threads\lab1.7
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target second.lab1.7.2
+
+
+#############################################
+# Link the executable second.lab1.7.2.exe
+
+build second.lab1.7.2.exe: C_EXECUTABLE_LINKER__second.2elab1.2e7.2e2_Debug CMakeFiles/second.lab1.7.2.dir/semester_two/threads/lab1.7/user_threads.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\second.lab1.7.2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = second.lab1.7.2.exe
+  TARGET_IMPLIB = libsecond.lab1.7.2.dll.a
+  TARGET_PDB = second.lab1.7.2.exe.dbg
 
 
 #############################################
@@ -1112,9 +1178,13 @@ build second.lab1.4.2: phony second.lab1.4.2.exe
 
 build second.lab1.5: phony second.lab1.5.exe
 
-build second.lab1.6: phony second.lab1.6.exe
+build second.lab1.6.1: phony second.lab1.6.1.exe
 
-build second.lab1.7: phony second.lab1.7.exe
+build second.lab1.6.2: phony second.lab1.6.2.exe
+
+build second.lab1.7.1: phony second.lab1.7.1.exe
+
+build second.lab1.7.2: phony second.lab1.7.2.exe
 
 # =============================================================================
 # Folder targets.
@@ -1124,7 +1194,7 @@ build second.lab1.7: phony second.lab1.7.exe
 #############################################
 # Folder: F:/NSU/OS/cmake-build-debug
 
-build all: phony first.lab1.1.exe first.lab1.2.1.exe first.lab1.2.2.exe first.lab3.1.exe first.lab3.2.exe first.lab4.1.exe first.lab4.2.1.exe first.lab4.2.2.exe first.lab5.1.exe first.lab5.2.1.exe first.lab5.2.2.exe first.lab6.1.1.exe first.lab6.1.2.exe first.lab6.2.exe first.lab7.1.1.exe first.lab7.1.2.exe first.lab7.2.1.exe first.lab7.2.2.exe first.lab8.1.exe first.lab8.2.exe second.lab1.1.1.exe second.lab1.1.2.exe second.lab1.2.1.exe second.lab1.2.2.exe second.lab1.3.exe second.lab1.4.1.exe second.lab1.4.2.exe second.lab1.5.exe second.lab1.6.exe second.lab1.7.exe
+build all: phony first.lab1.1.exe first.lab1.2.1.exe first.lab1.2.2.exe first.lab3.1.exe first.lab3.2.exe first.lab4.1.exe first.lab4.2.1.exe first.lab4.2.2.exe first.lab5.1.exe first.lab5.2.1.exe first.lab5.2.2.exe first.lab6.1.1.exe first.lab6.1.2.exe first.lab6.2.exe first.lab7.1.1.exe first.lab7.1.2.exe first.lab7.2.1.exe first.lab7.2.2.exe first.lab8.1.exe first.lab8.2.exe second.lab1.1.1.exe second.lab1.1.2.exe second.lab1.2.1.exe second.lab1.2.2.exe second.lab1.3.exe second.lab1.4.1.exe second.lab1.4.2.exe second.lab1.5.exe second.lab1.6.1.exe second.lab1.6.2.exe second.lab1.7.1.exe second.lab1.7.2.exe
 
 # =============================================================================
 # Built-in targets

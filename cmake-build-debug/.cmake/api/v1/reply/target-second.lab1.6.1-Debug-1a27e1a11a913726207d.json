@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "second.lab1.6.exe"
+			"path" : "second.lab1.6.1.exe"
 		},
 		{
-			"path" : "second.lab1.6.pdb"
+			"path" : "second.lab1.6.1.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -56,7 +56,7 @@
 			]
 		}
 	],
-	"id" : "second.lab1.6::@6890427a1f51a3e7e1df",
+	"id" : "second.lab1.6.1::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -76,8 +76,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "second.lab1.6",
-	"nameOnDisk" : "second.lab1.6.exe",
+	"name" : "second.lab1.6.1",
+	"nameOnDisk" : "second.lab1.6.1.exe",
 	"paths" : 
 	{
 		"build" : ".",
