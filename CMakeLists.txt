@@ -5,7 +5,8 @@ set(CMAKE_C_STANDARD 17)
 
 #[[ ---------- 1st semester ---------- ]]
 
-add_executable(first.lab1.1 "semester_one/compiling/lab1.1.c")
+add_executable(first.lab1.1 "semester_one/compiling/lab1.1.c"
+        semester_two/sync/2.2/spinlock/spinlock-queue.h)
 add_executable(first.lab1.2.1 "semester_one/address_space/lab4.2.1.c")
 add_executable(first.lab1.2.2 "semester_one/address_space/lab4.2.2.c")
 
@@ -52,3 +53,21 @@ add_executable(second.lab1.6.2 "semester_two/threads/lab1.6/mythreads.c")
 
 add_executable(second.lab1.7.1 "semester_two/threads/lab1.7/create_user_thread.c")
 add_executable(second.lab1.7.2 "semester_two/threads/lab1.7/user_threads.c")
+
+add_executable(second.lab2.1.1 "semester_two/sync/2.1/queue.c")
+add_executable(second.lab2.1.2 "semester_two/sync/2.1/queue-example.c")
+add_executable(second.lab2.1.3 "semester_two/sync/2.1/queue-threads.c")
+
+add_executable(second.lab2.2_1.1 "semester_two/sync/2.2/spinlock/main.c")
+add_executable(second.lab2.2_1.2 "semester_two/sync/2.2/spinlock/spinlock-queue.c")
+
+add_executable(second.lab2.2_2.1 "semester_two/sync/2.2/mutex/main.c")
+add_executable(second.lab2.2_2.2 "semester_two/sync/2.2/mutex/mutex-queue.c")
+
+add_executable(second.lab2.2_3.1 "semester_two/sync/2.2/cond/main.c")
+add_executable(second.lab2.2_3.2 "semester_two/sync/2.2/cond/cond-queue.c")
+
+add_executable(second.lab2.2_4.1 "semester_two/sync/2.2/semaphore/main.c")
+add_executable(second.lab2.2_4.2 "semester_two/sync/2.2/semaphore/sem-queue.c")
+
+add_executable(second.lab3 "semester_two/proxy/proxy.c")

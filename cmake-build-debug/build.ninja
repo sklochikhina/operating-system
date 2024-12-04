@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = F$:/NSU/OS/cmake-build-debug/
+cmake_ninja_workdir = D$:/NSU/OS/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target first.lab1.1
 
@@ -49,7 +49,7 @@ cmake_ninja_workdir = F$:/NSU/OS/cmake-build-debug/
 
 build cmake_object_order_depends_target_first.lab1.1: phony || .
 
-build CMakeFiles/first.lab1.1.dir/semester_one/compiling/lab1.1.c.obj: C_COMPILER__first.2elab1.2e1_unscanned_Debug F$:/NSU/OS/semester_one/compiling/lab1.1.c || cmake_object_order_depends_target_first.lab1.1
+build CMakeFiles/first.lab1.1.dir/semester_one/compiling/lab1.1.c.obj: C_COMPILER__first.2elab1.2e1_unscanned_Debug D$:/NSU/OS/semester_one/compiling/lab1.1.c || cmake_object_order_depends_target_first.lab1.1
   DEP_FILE = CMakeFiles\first.lab1.1.dir\semester_one\compiling\lab1.1.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\first.lab1.1.dir
@@ -82,7 +82,7 @@ build first.lab1.1.exe: C_EXECUTABLE_LINKER__first.2elab1.2e1_Debug CMakeFiles/f
 
 build cmake_object_order_depends_target_first.lab1.2.1: phony || .
 
-build CMakeFiles/first.lab1.2.1.dir/semester_one/address_space/lab4.2.1.c.obj: C_COMPILER__first.2elab1.2e2.2e1_unscanned_Debug F$:/NSU/OS/semester_one/address_space/lab4.2.1.c || cmake_object_order_depends_target_first.lab1.2.1
+build CMakeFiles/first.lab1.2.1.dir/semester_one/address_space/lab4.2.1.c.obj: C_COMPILER__first.2elab1.2e2.2e1_unscanned_Debug D$:/NSU/OS/semester_one/address_space/lab4.2.1.c || cmake_object_order_depends_target_first.lab1.2.1
   DEP_FILE = CMakeFiles\first.lab1.2.1.dir\semester_one\address_space\lab4.2.1.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\first.lab1.2.1.dir
@@ -115,7 +115,7 @@ build first.lab1.2.1.exe: C_EXECUTABLE_LINKER__first.2elab1.2e2.2e1_Debug CMakeF
 
 build cmake_object_order_depends_target_first.lab1.2.2: phony || .
 
-build CMakeFiles/first.lab1.2.2.dir/semester_one/address_space/lab4.2.2.c.obj: C_COMPILER__first.2elab1.2e2.2e2_unscanned_Debug F$:/NSU/OS/semester_one/address_space/lab4.2.2.c || cmake_object_order_depends_target_first.lab1.2.2
+build CMakeFiles/first.lab1.2.2.dir/semester_one/address_space/lab4.2.2.c.obj: C_COMPILER__first.2elab1.2e2.2e2_unscanned_Debug D$:/NSU/OS/semester_one/address_space/lab4.2.2.c || cmake_object_order_depends_target_first.lab1.2.2
   DEP_FILE = CMakeFiles\first.lab1.2.2.dir\semester_one\address_space\lab4.2.2.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\first.lab1.2.2.dir
@@ -148,7 +148,7 @@ build first.lab1.2.2.exe: C_EXECUTABLE_LINKER__first.2elab1.2e2.2e2_Debug CMakeF
 
 build cmake_object_order_depends_target_first.lab3.1: phony || .
 
-build CMakeFiles/first.lab3.1.dir/semester_one/file_systems/lab3.1.c.obj: C_COMPILER__first.2elab3.2e1_unscanned_Debug F$:/NSU/OS/semester_one/file_systems/lab3.1.c || cmake_object_order_depends_target_first.lab3.1
+build CMakeFiles/first.lab3.1.dir/semester_one/file_systems/lab3.1.c.obj: C_COMPILER__first.2elab3.2e1_unscanned_Debug D$:/NSU/OS/semester_one/file_systems/lab3.1.c || cmake_object_order_depends_target_first.lab3.1
   DEP_FILE = CMakeFiles\first.lab3.1.dir\semester_one\file_systems\lab3.1.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\first.lab3.1.dir
@@ -181,7 +181,7 @@ build first.lab3.1.exe: C_EXECUTABLE_LINKER__first.2elab3.2e1_Debug CMakeFiles/f
 
 build cmake_object_order_depends_target_first.lab3.2: phony || .
 
-build CMakeFiles/first.lab3.2.dir/semester_one/file_systems/lab3.2.c.obj: C_COMPILER__first.2elab3.2e2_unscanned_Debug F$:/NSU/OS/semester_one/file_systems/lab3.2.c || cmake_object_order_depends_target_first.lab3.2
+build CMakeFiles/first.lab3.2.dir/semester_one/file_systems/lab3.2.c.obj: C_COMPILER__first.2elab3.2e2_unscanned_Debug D$:/NSU/OS/semester_one/file_systems/lab3.2.c || cmake_object_order_depends_target_first.lab3.2
   DEP_FILE = CMakeFiles\first.lab3.2.dir\semester_one\file_systems\lab3.2.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\first.lab3.2.dir
@@ -214,7 +214,7 @@ build first.lab3.2.exe: C_EXECUTABLE_LINKER__first.2elab3.2e2_Debug CMakeFiles/f
 
 build cmake_object_order_depends_target_first.lab4.1: phony || .
 
-build CMakeFiles/first.lab4.1.dir/semester_one/address_space/lab4.1.c.obj: C_COMPILER__first.2elab4.2e1_unscanned_Debug F$:/NSU/OS/semester_one/address_space/lab4.1.c || cmake_object_order_depends_target_first.lab4.1
+build CMakeFiles/first.lab4.1.dir/semester_one/address_space/lab4.1.c.obj: C_COMPILER__first.2elab4.2e1_unscanned_Debug D$:/NSU/OS/semester_one/address_space/lab4.1.c || cmake_object_order_depends_target_first.lab4.1
   DEP_FILE = CMakeFiles\first.lab4.1.dir\semester_one\address_space\lab4.1.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\first.lab4.1.dir
@@ -247,7 +247,7 @@ build first.lab4.1.exe: C_EXECUTABLE_LINKER__first.2elab4.2e1_Debug CMakeFiles/f
 
 build cmake_object_order_depends_target_first.lab4.2.1: phony || .
 
-build CMakeFiles/first.lab4.2.1.dir/semester_one/address_space/lab4.2.1.c.obj: C_COMPILER__first.2elab4.2e2.2e1_unscanned_Debug F$:/NSU/OS/semester_one/address_space/lab4.2.1.c || cmake_object_order_depends_target_first.lab4.2.1
+build CMakeFiles/first.lab4.2.1.dir/semester_one/address_space/lab4.2.1.c.obj: C_COMPILER__first.2elab4.2e2.2e1_unscanned_Debug D$:/NSU/OS/semester_one/address_space/lab4.2.1.c || cmake_object_order_depends_target_first.lab4.2.1
   DEP_FILE = CMakeFiles\first.lab4.2.1.dir\semester_one\address_space\lab4.2.1.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\first.lab4.2.1.dir
@@ -280,7 +280,7 @@ build first.lab4.2.1.exe: C_EXECUTABLE_LINKER__first.2elab4.2e2.2e1_Debug CMakeF
 
 build cmake_object_order_depends_target_first.lab4.2.2: phony || .
 
-build CMakeFiles/first.lab4.2.2.dir/semester_one/address_space/lab4.2.2.c.obj: C_COMPILER__first.2elab4.2e2.2e2_unscanned_Debug F$:/NSU/OS/semester_one/address_space/lab4.2.2.c || cmake_object_order_depends_target_first.lab4.2.2
+build CMakeFiles/first.lab4.2.2.dir/semester_one/address_space/lab4.2.2.c.obj: C_COMPILER__first.2elab4.2e2.2e2_unscanned_Debug D$:/NSU/OS/semester_one/address_space/lab4.2.2.c || cmake_object_order_depends_target_first.lab4.2.2
   DEP_FILE = CMakeFiles\first.lab4.2.2.dir\semester_one\address_space\lab4.2.2.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\first.lab4.2.2.dir
@@ -313,7 +313,7 @@ build first.lab4.2.2.exe: C_EXECUTABLE_LINKER__first.2elab4.2e2.2e2_Debug CMakeF
 
 build cmake_object_order_depends_target_first.lab5.1: phony || .
 
-build CMakeFiles/first.lab5.1.dir/semester_one/processes/lab5.1.c.obj: C_COMPILER__first.2elab5.2e1_unscanned_Debug F$:/NSU/OS/semester_one/processes/lab5.1.c || cmake_object_order_depends_target_first.lab5.1
+build CMakeFiles/first.lab5.1.dir/semester_one/processes/lab5.1.c.obj: C_COMPILER__first.2elab5.2e1_unscanned_Debug D$:/NSU/OS/semester_one/processes/lab5.1.c || cmake_object_order_depends_target_first.lab5.1
   DEP_FILE = CMakeFiles\first.lab5.1.dir\semester_one\processes\lab5.1.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\first.lab5.1.dir
@@ -346,7 +346,7 @@ build first.lab5.1.exe: C_EXECUTABLE_LINKER__first.2elab5.2e1_Debug CMakeFiles/f
 
 build cmake_object_order_depends_target_first.lab5.2.1: phony || .
 
-build CMakeFiles/first.lab5.2.1.dir/semester_one/processes/lab5.2.1.c.obj: C_COMPILER__first.2elab5.2e2.2e1_unscanned_Debug F$:/NSU/OS/semester_one/processes/lab5.2.1.c || cmake_object_order_depends_target_first.lab5.2.1
+build CMakeFiles/first.lab5.2.1.dir/semester_one/processes/lab5.2.1.c.obj: C_COMPILER__first.2elab5.2e2.2e1_unscanned_Debug D$:/NSU/OS/semester_one/processes/lab5.2.1.c || cmake_object_order_depends_target_first.lab5.2.1
   DEP_FILE = CMakeFiles\first.lab5.2.1.dir\semester_one\processes\lab5.2.1.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\first.lab5.2.1.dir
@@ -379,7 +379,7 @@ build first.lab5.2.1.exe: C_EXECUTABLE_LINKER__first.2elab5.2e2.2e1_Debug CMakeF
 
 build cmake_object_order_depends_target_first.lab5.2.2: phony || .
 
-build CMakeFiles/first.lab5.2.2.dir/semester_one/processes/lab5.2.2.c.obj: C_COMPILER__first.2elab5.2e2.2e2_unscanned_Debug F$:/NSU/OS/semester_one/processes/lab5.2.2.c || cmake_object_order_depends_target_first.lab5.2.2
+build CMakeFiles/first.lab5.2.2.dir/semester_one/processes/lab5.2.2.c.obj: C_COMPILER__first.2elab5.2e2.2e2_unscanned_Debug D$:/NSU/OS/semester_one/processes/lab5.2.2.c || cmake_object_order_depends_target_first.lab5.2.2
   DEP_FILE = CMakeFiles\first.lab5.2.2.dir\semester_one\processes\lab5.2.2.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\first.lab5.2.2.dir
@@ -412,7 +412,7 @@ build first.lab5.2.2.exe: C_EXECUTABLE_LINKER__first.2elab5.2e2.2e2_Debug CMakeF
 
 build cmake_object_order_depends_target_first.lab6.1.1: phony || .
 
-build CMakeFiles/first.lab6.1.1.dir/semester_one/interprocess_communications/lab6.1.1.c.obj: C_COMPILER__first.2elab6.2e1.2e1_unscanned_Debug F$:/NSU/OS/semester_one/interprocess_communications/lab6.1.1.c || cmake_object_order_depends_target_first.lab6.1.1
+build CMakeFiles/first.lab6.1.1.dir/semester_one/interprocess_communications/lab6.1.1.c.obj: C_COMPILER__first.2elab6.2e1.2e1_unscanned_Debug D$:/NSU/OS/semester_one/interprocess_communications/lab6.1.1.c || cmake_object_order_depends_target_first.lab6.1.1
   DEP_FILE = CMakeFiles\first.lab6.1.1.dir\semester_one\interprocess_communications\lab6.1.1.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\first.lab6.1.1.dir
@@ -445,7 +445,7 @@ build first.lab6.1.1.exe: C_EXECUTABLE_LINKER__first.2elab6.2e1.2e1_Debug CMakeF
 
 build cmake_object_order_depends_target_first.lab6.1.2: phony || .
 
-build CMakeFiles/first.lab6.1.2.dir/semester_one/interprocess_communications/lab6.1.2.c.obj: C_COMPILER__first.2elab6.2e1.2e2_unscanned_Debug F$:/NSU/OS/semester_one/interprocess_communications/lab6.1.2.c || cmake_object_order_depends_target_first.lab6.1.2
+build CMakeFiles/first.lab6.1.2.dir/semester_one/interprocess_communications/lab6.1.2.c.obj: C_COMPILER__first.2elab6.2e1.2e2_unscanned_Debug D$:/NSU/OS/semester_one/interprocess_communications/lab6.1.2.c || cmake_object_order_depends_target_first.lab6.1.2
   DEP_FILE = CMakeFiles\first.lab6.1.2.dir\semester_one\interprocess_communications\lab6.1.2.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\first.lab6.1.2.dir
@@ -478,7 +478,7 @@ build first.lab6.1.2.exe: C_EXECUTABLE_LINKER__first.2elab6.2e1.2e2_Debug CMakeF
 
 build cmake_object_order_depends_target_first.lab6.2: phony || .
 
-build CMakeFiles/first.lab6.2.dir/semester_one/interprocess_communications/lab6.2.c.obj: C_COMPILER__first.2elab6.2e2_unscanned_Debug F$:/NSU/OS/semester_one/interprocess_communications/lab6.2.c || cmake_object_order_depends_target_first.lab6.2
+build CMakeFiles/first.lab6.2.dir/semester_one/interprocess_communications/lab6.2.c.obj: C_COMPILER__first.2elab6.2e2_unscanned_Debug D$:/NSU/OS/semester_one/interprocess_communications/lab6.2.c || cmake_object_order_depends_target_first.lab6.2
   DEP_FILE = CMakeFiles\first.lab6.2.dir\semester_one\interprocess_communications\lab6.2.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\first.lab6.2.dir
@@ -511,7 +511,7 @@ build first.lab6.2.exe: C_EXECUTABLE_LINKER__first.2elab6.2e2_Debug CMakeFiles/f
 
 build cmake_object_order_depends_target_first.lab7.1.1: phony || .
 
-build CMakeFiles/first.lab7.1.1.dir/semester_one/socket/lab7.1.server.c.obj: C_COMPILER__first.2elab7.2e1.2e1_unscanned_Debug F$:/NSU/OS/semester_one/socket/lab7.1.server.c || cmake_object_order_depends_target_first.lab7.1.1
+build CMakeFiles/first.lab7.1.1.dir/semester_one/socket/lab7.1.server.c.obj: C_COMPILER__first.2elab7.2e1.2e1_unscanned_Debug D$:/NSU/OS/semester_one/socket/lab7.1.server.c || cmake_object_order_depends_target_first.lab7.1.1
   DEP_FILE = CMakeFiles\first.lab7.1.1.dir\semester_one\socket\lab7.1.server.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\first.lab7.1.1.dir
@@ -544,7 +544,7 @@ build first.lab7.1.1.exe: C_EXECUTABLE_LINKER__first.2elab7.2e1.2e1_Debug CMakeF
 
 build cmake_object_order_depends_target_first.lab7.1.2: phony || .
 
-build CMakeFiles/first.lab7.1.2.dir/semester_one/socket/lab7.1.client.c.obj: C_COMPILER__first.2elab7.2e1.2e2_unscanned_Debug F$:/NSU/OS/semester_one/socket/lab7.1.client.c || cmake_object_order_depends_target_first.lab7.1.2
+build CMakeFiles/first.lab7.1.2.dir/semester_one/socket/lab7.1.client.c.obj: C_COMPILER__first.2elab7.2e1.2e2_unscanned_Debug D$:/NSU/OS/semester_one/socket/lab7.1.client.c || cmake_object_order_depends_target_first.lab7.1.2
   DEP_FILE = CMakeFiles\first.lab7.1.2.dir\semester_one\socket\lab7.1.client.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\first.lab7.1.2.dir
@@ -577,7 +577,7 @@ build first.lab7.1.2.exe: C_EXECUTABLE_LINKER__first.2elab7.2e1.2e2_Debug CMakeF
 
 build cmake_object_order_depends_target_first.lab7.2.1: phony || .
 
-build CMakeFiles/first.lab7.2.1.dir/semester_one/socket/lab7.2.server.c.obj: C_COMPILER__first.2elab7.2e2.2e1_unscanned_Debug F$:/NSU/OS/semester_one/socket/lab7.2.server.c || cmake_object_order_depends_target_first.lab7.2.1
+build CMakeFiles/first.lab7.2.1.dir/semester_one/socket/lab7.2.server.c.obj: C_COMPILER__first.2elab7.2e2.2e1_unscanned_Debug D$:/NSU/OS/semester_one/socket/lab7.2.server.c || cmake_object_order_depends_target_first.lab7.2.1
   DEP_FILE = CMakeFiles\first.lab7.2.1.dir\semester_one\socket\lab7.2.server.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\first.lab7.2.1.dir
@@ -610,7 +610,7 @@ build first.lab7.2.1.exe: C_EXECUTABLE_LINKER__first.2elab7.2e2.2e1_Debug CMakeF
 
 build cmake_object_order_depends_target_first.lab7.2.2: phony || .
 
-build CMakeFiles/first.lab7.2.2.dir/semester_one/socket/lab7.2.client.c.obj: C_COMPILER__first.2elab7.2e2.2e2_unscanned_Debug F$:/NSU/OS/semester_one/socket/lab7.2.client.c || cmake_object_order_depends_target_first.lab7.2.2
+build CMakeFiles/first.lab7.2.2.dir/semester_one/socket/lab7.2.client.c.obj: C_COMPILER__first.2elab7.2e2.2e2_unscanned_Debug D$:/NSU/OS/semester_one/socket/lab7.2.client.c || cmake_object_order_depends_target_first.lab7.2.2
   DEP_FILE = CMakeFiles\first.lab7.2.2.dir\semester_one\socket\lab7.2.client.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\first.lab7.2.2.dir
@@ -643,7 +643,7 @@ build first.lab7.2.2.exe: C_EXECUTABLE_LINKER__first.2elab7.2e2.2e2_Debug CMakeF
 
 build cmake_object_order_depends_target_first.lab8.1: phony || .
 
-build CMakeFiles/first.lab8.1.dir/semester_one/users/lab8.1.c.obj: C_COMPILER__first.2elab8.2e1_unscanned_Debug F$:/NSU/OS/semester_one/users/lab8.1.c || cmake_object_order_depends_target_first.lab8.1
+build CMakeFiles/first.lab8.1.dir/semester_one/users/lab8.1.c.obj: C_COMPILER__first.2elab8.2e1_unscanned_Debug D$:/NSU/OS/semester_one/users/lab8.1.c || cmake_object_order_depends_target_first.lab8.1
   DEP_FILE = CMakeFiles\first.lab8.1.dir\semester_one\users\lab8.1.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\first.lab8.1.dir
@@ -676,7 +676,7 @@ build first.lab8.1.exe: C_EXECUTABLE_LINKER__first.2elab8.2e1_Debug CMakeFiles/f
 
 build cmake_object_order_depends_target_first.lab8.2: phony || .
 
-build CMakeFiles/first.lab8.2.dir/semester_one/users/lab8.2.c.obj: C_COMPILER__first.2elab8.2e2_unscanned_Debug F$:/NSU/OS/semester_one/users/lab8.2.c || cmake_object_order_depends_target_first.lab8.2
+build CMakeFiles/first.lab8.2.dir/semester_one/users/lab8.2.c.obj: C_COMPILER__first.2elab8.2e2_unscanned_Debug D$:/NSU/OS/semester_one/users/lab8.2.c || cmake_object_order_depends_target_first.lab8.2
   DEP_FILE = CMakeFiles\first.lab8.2.dir\semester_one\users\lab8.2.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\first.lab8.2.dir
@@ -709,7 +709,7 @@ build first.lab8.2.exe: C_EXECUTABLE_LINKER__first.2elab8.2e2_Debug CMakeFiles/f
 
 build cmake_object_order_depends_target_second.lab1.1.1: phony || .
 
-build CMakeFiles/second.lab1.1.1.dir/semester_two/threads/lab1.1/5_threads.c.obj: C_COMPILER__second.2elab1.2e1.2e1_unscanned_Debug F$:/NSU/OS/semester_two/threads/lab1.1/5_threads.c || cmake_object_order_depends_target_second.lab1.1.1
+build CMakeFiles/second.lab1.1.1.dir/semester_two/threads/lab1.1/5_threads.c.obj: C_COMPILER__second.2elab1.2e1.2e1_unscanned_Debug D$:/NSU/OS/semester_two/threads/lab1.1/5_threads.c || cmake_object_order_depends_target_second.lab1.1.1
   DEP_FILE = CMakeFiles\second.lab1.1.1.dir\semester_two\threads\lab1.1\5_threads.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\second.lab1.1.1.dir
@@ -742,7 +742,7 @@ build second.lab1.1.1.exe: C_EXECUTABLE_LINKER__second.2elab1.2e1.2e1_Debug CMak
 
 build cmake_object_order_depends_target_second.lab1.1.2: phony || .
 
-build CMakeFiles/second.lab1.1.2.dir/semester_two/threads/lab1.1/thread.c.obj: C_COMPILER__second.2elab1.2e1.2e2_unscanned_Debug F$:/NSU/OS/semester_two/threads/lab1.1/thread.c || cmake_object_order_depends_target_second.lab1.1.2
+build CMakeFiles/second.lab1.1.2.dir/semester_two/threads/lab1.1/thread.c.obj: C_COMPILER__second.2elab1.2e1.2e2_unscanned_Debug D$:/NSU/OS/semester_two/threads/lab1.1/thread.c || cmake_object_order_depends_target_second.lab1.1.2
   DEP_FILE = CMakeFiles\second.lab1.1.2.dir\semester_two\threads\lab1.1\thread.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\second.lab1.1.2.dir
@@ -775,7 +775,7 @@ build second.lab1.1.2.exe: C_EXECUTABLE_LINKER__second.2elab1.2e1.2e2_Debug CMak
 
 build cmake_object_order_depends_target_second.lab1.2.1: phony || .
 
-build CMakeFiles/second.lab1.2.1.dir/semester_two/threads/lab1.2/inf_cycle.c.obj: C_COMPILER__second.2elab1.2e2.2e1_unscanned_Debug F$:/NSU/OS/semester_two/threads/lab1.2/inf_cycle.c || cmake_object_order_depends_target_second.lab1.2.1
+build CMakeFiles/second.lab1.2.1.dir/semester_two/threads/lab1.2/inf_cycle.c.obj: C_COMPILER__second.2elab1.2e2.2e1_unscanned_Debug D$:/NSU/OS/semester_two/threads/lab1.2/inf_cycle.c || cmake_object_order_depends_target_second.lab1.2.1
   DEP_FILE = CMakeFiles\second.lab1.2.1.dir\semester_two\threads\lab1.2\inf_cycle.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\second.lab1.2.1.dir
@@ -808,7 +808,7 @@ build second.lab1.2.1.exe: C_EXECUTABLE_LINKER__second.2elab1.2e2.2e1_Debug CMak
 
 build cmake_object_order_depends_target_second.lab1.2.2: phony || .
 
-build CMakeFiles/second.lab1.2.2.dir/semester_two/threads/lab1.2/join.c.obj: C_COMPILER__second.2elab1.2e2.2e2_unscanned_Debug F$:/NSU/OS/semester_two/threads/lab1.2/join.c || cmake_object_order_depends_target_second.lab1.2.2
+build CMakeFiles/second.lab1.2.2.dir/semester_two/threads/lab1.2/join.c.obj: C_COMPILER__second.2elab1.2e2.2e2_unscanned_Debug D$:/NSU/OS/semester_two/threads/lab1.2/join.c || cmake_object_order_depends_target_second.lab1.2.2
   DEP_FILE = CMakeFiles\second.lab1.2.2.dir\semester_two\threads\lab1.2\join.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\second.lab1.2.2.dir
@@ -841,7 +841,7 @@ build second.lab1.2.2.exe: C_EXECUTABLE_LINKER__second.2elab1.2e2.2e2_Debug CMak
 
 build cmake_object_order_depends_target_second.lab1.3: phony || .
 
-build CMakeFiles/second.lab1.3.dir/semester_two/threads/lab1.3/parameters.c.obj: C_COMPILER__second.2elab1.2e3_unscanned_Debug F$:/NSU/OS/semester_two/threads/lab1.3/parameters.c || cmake_object_order_depends_target_second.lab1.3
+build CMakeFiles/second.lab1.3.dir/semester_two/threads/lab1.3/parameters.c.obj: C_COMPILER__second.2elab1.2e3_unscanned_Debug D$:/NSU/OS/semester_two/threads/lab1.3/parameters.c || cmake_object_order_depends_target_second.lab1.3
   DEP_FILE = CMakeFiles\second.lab1.3.dir\semester_two\threads\lab1.3\parameters.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\second.lab1.3.dir
@@ -874,7 +874,7 @@ build second.lab1.3.exe: C_EXECUTABLE_LINKER__second.2elab1.2e3_Debug CMakeFiles
 
 build cmake_object_order_depends_target_second.lab1.4.1: phony || .
 
-build CMakeFiles/second.lab1.4.1.dir/semester_two/threads/lab1.4/cancel.c.obj: C_COMPILER__second.2elab1.2e4.2e1_unscanned_Debug F$:/NSU/OS/semester_two/threads/lab1.4/cancel.c || cmake_object_order_depends_target_second.lab1.4.1
+build CMakeFiles/second.lab1.4.1.dir/semester_two/threads/lab1.4/cancel.c.obj: C_COMPILER__second.2elab1.2e4.2e1_unscanned_Debug D$:/NSU/OS/semester_two/threads/lab1.4/cancel.c || cmake_object_order_depends_target_second.lab1.4.1
   DEP_FILE = CMakeFiles\second.lab1.4.1.dir\semester_two\threads\lab1.4\cancel.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\second.lab1.4.1.dir
@@ -907,7 +907,7 @@ build second.lab1.4.1.exe: C_EXECUTABLE_LINKER__second.2elab1.2e4.2e1_Debug CMak
 
 build cmake_object_order_depends_target_second.lab1.4.2: phony || .
 
-build CMakeFiles/second.lab1.4.2.dir/semester_two/threads/lab1.4/cleanup.c.obj: C_COMPILER__second.2elab1.2e4.2e2_unscanned_Debug F$:/NSU/OS/semester_two/threads/lab1.4/cleanup.c || cmake_object_order_depends_target_second.lab1.4.2
+build CMakeFiles/second.lab1.4.2.dir/semester_two/threads/lab1.4/cleanup.c.obj: C_COMPILER__second.2elab1.2e4.2e2_unscanned_Debug D$:/NSU/OS/semester_two/threads/lab1.4/cleanup.c || cmake_object_order_depends_target_second.lab1.4.2
   DEP_FILE = CMakeFiles\second.lab1.4.2.dir\semester_two\threads\lab1.4\cleanup.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\second.lab1.4.2.dir
@@ -940,7 +940,7 @@ build second.lab1.4.2.exe: C_EXECUTABLE_LINKER__second.2elab1.2e4.2e2_Debug CMak
 
 build cmake_object_order_depends_target_second.lab1.5: phony || .
 
-build CMakeFiles/second.lab1.5.dir/semester_two/threads/lab1.5/signals.c.obj: C_COMPILER__second.2elab1.2e5_unscanned_Debug F$:/NSU/OS/semester_two/threads/lab1.5/signals.c || cmake_object_order_depends_target_second.lab1.5
+build CMakeFiles/second.lab1.5.dir/semester_two/threads/lab1.5/signals.c.obj: C_COMPILER__second.2elab1.2e5_unscanned_Debug D$:/NSU/OS/semester_two/threads/lab1.5/signals.c || cmake_object_order_depends_target_second.lab1.5
   DEP_FILE = CMakeFiles\second.lab1.5.dir\semester_two\threads\lab1.5\signals.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\second.lab1.5.dir
@@ -973,7 +973,7 @@ build second.lab1.5.exe: C_EXECUTABLE_LINKER__second.2elab1.2e5_Debug CMakeFiles
 
 build cmake_object_order_depends_target_second.lab1.6.1: phony || .
 
-build CMakeFiles/second.lab1.6.1.dir/semester_two/threads/lab1.6/create_mythread.c.obj: C_COMPILER__second.2elab1.2e6.2e1_unscanned_Debug F$:/NSU/OS/semester_two/threads/lab1.6/create_mythread.c || cmake_object_order_depends_target_second.lab1.6.1
+build CMakeFiles/second.lab1.6.1.dir/semester_two/threads/lab1.6/create_mythread.c.obj: C_COMPILER__second.2elab1.2e6.2e1_unscanned_Debug D$:/NSU/OS/semester_two/threads/lab1.6/create_mythread.c || cmake_object_order_depends_target_second.lab1.6.1
   DEP_FILE = CMakeFiles\second.lab1.6.1.dir\semester_two\threads\lab1.6\create_mythread.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\second.lab1.6.1.dir
@@ -1006,7 +1006,7 @@ build second.lab1.6.1.exe: C_EXECUTABLE_LINKER__second.2elab1.2e6.2e1_Debug CMak
 
 build cmake_object_order_depends_target_second.lab1.6.2: phony || .
 
-build CMakeFiles/second.lab1.6.2.dir/semester_two/threads/lab1.6/mythreads.c.obj: C_COMPILER__second.2elab1.2e6.2e2_unscanned_Debug F$:/NSU/OS/semester_two/threads/lab1.6/mythreads.c || cmake_object_order_depends_target_second.lab1.6.2
+build CMakeFiles/second.lab1.6.2.dir/semester_two/threads/lab1.6/mythreads.c.obj: C_COMPILER__second.2elab1.2e6.2e2_unscanned_Debug D$:/NSU/OS/semester_two/threads/lab1.6/mythreads.c || cmake_object_order_depends_target_second.lab1.6.2
   DEP_FILE = CMakeFiles\second.lab1.6.2.dir\semester_two\threads\lab1.6\mythreads.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\second.lab1.6.2.dir
@@ -1039,7 +1039,7 @@ build second.lab1.6.2.exe: C_EXECUTABLE_LINKER__second.2elab1.2e6.2e2_Debug CMak
 
 build cmake_object_order_depends_target_second.lab1.7.1: phony || .
 
-build CMakeFiles/second.lab1.7.1.dir/semester_two/threads/lab1.7/create_user_thread.c.obj: C_COMPILER__second.2elab1.2e7.2e1_unscanned_Debug F$:/NSU/OS/semester_two/threads/lab1.7/create_user_thread.c || cmake_object_order_depends_target_second.lab1.7.1
+build CMakeFiles/second.lab1.7.1.dir/semester_two/threads/lab1.7/create_user_thread.c.obj: C_COMPILER__second.2elab1.2e7.2e1_unscanned_Debug D$:/NSU/OS/semester_two/threads/lab1.7/create_user_thread.c || cmake_object_order_depends_target_second.lab1.7.1
   DEP_FILE = CMakeFiles\second.lab1.7.1.dir\semester_two\threads\lab1.7\create_user_thread.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\second.lab1.7.1.dir
@@ -1072,7 +1072,7 @@ build second.lab1.7.1.exe: C_EXECUTABLE_LINKER__second.2elab1.2e7.2e1_Debug CMak
 
 build cmake_object_order_depends_target_second.lab1.7.2: phony || .
 
-build CMakeFiles/second.lab1.7.2.dir/semester_two/threads/lab1.7/user_threads.c.obj: C_COMPILER__second.2elab1.2e7.2e2_unscanned_Debug F$:/NSU/OS/semester_two/threads/lab1.7/user_threads.c || cmake_object_order_depends_target_second.lab1.7.2
+build CMakeFiles/second.lab1.7.2.dir/semester_two/threads/lab1.7/user_threads.c.obj: C_COMPILER__second.2elab1.2e7.2e2_unscanned_Debug D$:/NSU/OS/semester_two/threads/lab1.7/user_threads.c || cmake_object_order_depends_target_second.lab1.7.2
   DEP_FILE = CMakeFiles\second.lab1.7.2.dir\semester_two\threads\lab1.7\user_threads.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\second.lab1.7.2.dir
@@ -1096,12 +1096,408 @@ build second.lab1.7.2.exe: C_EXECUTABLE_LINKER__second.2elab1.2e7.2e2_Debug CMak
   TARGET_IMPLIB = libsecond.lab1.7.2.dll.a
   TARGET_PDB = second.lab1.7.2.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target second.lab2.1.1
+
+
+#############################################
+# Order-only phony target for second.lab2.1.1
+
+build cmake_object_order_depends_target_second.lab2.1.1: phony || .
+
+build CMakeFiles/second.lab2.1.1.dir/semester_two/sync/2.1/queue.c.obj: C_COMPILER__second.2elab2.2e1.2e1_unscanned_Debug D$:/NSU/OS/semester_two/sync/2.1/queue.c || cmake_object_order_depends_target_second.lab2.1.1
+  DEP_FILE = CMakeFiles\second.lab2.1.1.dir\semester_two\sync\2.1\queue.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\second.lab2.1.1.dir
+  OBJECT_FILE_DIR = CMakeFiles\second.lab2.1.1.dir\semester_two\sync\2.1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target second.lab2.1.1
+
+
+#############################################
+# Link the executable second.lab2.1.1.exe
+
+build second.lab2.1.1.exe: C_EXECUTABLE_LINKER__second.2elab2.2e1.2e1_Debug CMakeFiles/second.lab2.1.1.dir/semester_two/sync/2.1/queue.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\second.lab2.1.1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = second.lab2.1.1.exe
+  TARGET_IMPLIB = libsecond.lab2.1.1.dll.a
+  TARGET_PDB = second.lab2.1.1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target second.lab2.1.2
+
+
+#############################################
+# Order-only phony target for second.lab2.1.2
+
+build cmake_object_order_depends_target_second.lab2.1.2: phony || .
+
+build CMakeFiles/second.lab2.1.2.dir/semester_two/sync/2.1/queue-example.c.obj: C_COMPILER__second.2elab2.2e1.2e2_unscanned_Debug D$:/NSU/OS/semester_two/sync/2.1/queue-example.c || cmake_object_order_depends_target_second.lab2.1.2
+  DEP_FILE = CMakeFiles\second.lab2.1.2.dir\semester_two\sync\2.1\queue-example.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\second.lab2.1.2.dir
+  OBJECT_FILE_DIR = CMakeFiles\second.lab2.1.2.dir\semester_two\sync\2.1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target second.lab2.1.2
+
+
+#############################################
+# Link the executable second.lab2.1.2.exe
+
+build second.lab2.1.2.exe: C_EXECUTABLE_LINKER__second.2elab2.2e1.2e2_Debug CMakeFiles/second.lab2.1.2.dir/semester_two/sync/2.1/queue-example.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\second.lab2.1.2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = second.lab2.1.2.exe
+  TARGET_IMPLIB = libsecond.lab2.1.2.dll.a
+  TARGET_PDB = second.lab2.1.2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target second.lab2.1.3
+
+
+#############################################
+# Order-only phony target for second.lab2.1.3
+
+build cmake_object_order_depends_target_second.lab2.1.3: phony || .
+
+build CMakeFiles/second.lab2.1.3.dir/semester_two/sync/2.1/queue-threads.c.obj: C_COMPILER__second.2elab2.2e1.2e3_unscanned_Debug D$:/NSU/OS/semester_two/sync/2.1/queue-threads.c || cmake_object_order_depends_target_second.lab2.1.3
+  DEP_FILE = CMakeFiles\second.lab2.1.3.dir\semester_two\sync\2.1\queue-threads.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\second.lab2.1.3.dir
+  OBJECT_FILE_DIR = CMakeFiles\second.lab2.1.3.dir\semester_two\sync\2.1
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target second.lab2.1.3
+
+
+#############################################
+# Link the executable second.lab2.1.3.exe
+
+build second.lab2.1.3.exe: C_EXECUTABLE_LINKER__second.2elab2.2e1.2e3_Debug CMakeFiles/second.lab2.1.3.dir/semester_two/sync/2.1/queue-threads.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\second.lab2.1.3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = second.lab2.1.3.exe
+  TARGET_IMPLIB = libsecond.lab2.1.3.dll.a
+  TARGET_PDB = second.lab2.1.3.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target second.lab2.2_1.1
+
+
+#############################################
+# Order-only phony target for second.lab2.2_1.1
+
+build cmake_object_order_depends_target_second.lab2.2_1.1: phony || .
+
+build CMakeFiles/second.lab2.2_1.1.dir/semester_two/sync/2.2/spinlock/main.c.obj: C_COMPILER__second.2elab2.2e2_1.2e1_unscanned_Debug D$:/NSU/OS/semester_two/sync/2.2/spinlock/main.c || cmake_object_order_depends_target_second.lab2.2_1.1
+  DEP_FILE = CMakeFiles\second.lab2.2_1.1.dir\semester_two\sync\2.2\spinlock\main.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\second.lab2.2_1.1.dir
+  OBJECT_FILE_DIR = CMakeFiles\second.lab2.2_1.1.dir\semester_two\sync\2.2\spinlock
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target second.lab2.2_1.1
+
+
+#############################################
+# Link the executable second.lab2.2_1.1.exe
+
+build second.lab2.2_1.1.exe: C_EXECUTABLE_LINKER__second.2elab2.2e2_1.2e1_Debug CMakeFiles/second.lab2.2_1.1.dir/semester_two/sync/2.2/spinlock/main.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\second.lab2.2_1.1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = second.lab2.2_1.1.exe
+  TARGET_IMPLIB = libsecond.lab2.2_1.1.dll.a
+  TARGET_PDB = second.lab2.2_1.1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target second.lab2.2_1.2
+
+
+#############################################
+# Order-only phony target for second.lab2.2_1.2
+
+build cmake_object_order_depends_target_second.lab2.2_1.2: phony || .
+
+build CMakeFiles/second.lab2.2_1.2.dir/semester_two/sync/2.2/spinlock/spinlock-queue.c.obj: C_COMPILER__second.2elab2.2e2_1.2e2_unscanned_Debug D$:/NSU/OS/semester_two/sync/2.2/spinlock/spinlock-queue.c || cmake_object_order_depends_target_second.lab2.2_1.2
+  DEP_FILE = CMakeFiles\second.lab2.2_1.2.dir\semester_two\sync\2.2\spinlock\spinlock-queue.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\second.lab2.2_1.2.dir
+  OBJECT_FILE_DIR = CMakeFiles\second.lab2.2_1.2.dir\semester_two\sync\2.2\spinlock
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target second.lab2.2_1.2
+
+
+#############################################
+# Link the executable second.lab2.2_1.2.exe
+
+build second.lab2.2_1.2.exe: C_EXECUTABLE_LINKER__second.2elab2.2e2_1.2e2_Debug CMakeFiles/second.lab2.2_1.2.dir/semester_two/sync/2.2/spinlock/spinlock-queue.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\second.lab2.2_1.2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = second.lab2.2_1.2.exe
+  TARGET_IMPLIB = libsecond.lab2.2_1.2.dll.a
+  TARGET_PDB = second.lab2.2_1.2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target second.lab2.2_2.1
+
+
+#############################################
+# Order-only phony target for second.lab2.2_2.1
+
+build cmake_object_order_depends_target_second.lab2.2_2.1: phony || .
+
+build CMakeFiles/second.lab2.2_2.1.dir/semester_two/sync/2.2/mutex/main.c.obj: C_COMPILER__second.2elab2.2e2_2.2e1_unscanned_Debug D$:/NSU/OS/semester_two/sync/2.2/mutex/main.c || cmake_object_order_depends_target_second.lab2.2_2.1
+  DEP_FILE = CMakeFiles\second.lab2.2_2.1.dir\semester_two\sync\2.2\mutex\main.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\second.lab2.2_2.1.dir
+  OBJECT_FILE_DIR = CMakeFiles\second.lab2.2_2.1.dir\semester_two\sync\2.2\mutex
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target second.lab2.2_2.1
+
+
+#############################################
+# Link the executable second.lab2.2_2.1.exe
+
+build second.lab2.2_2.1.exe: C_EXECUTABLE_LINKER__second.2elab2.2e2_2.2e1_Debug CMakeFiles/second.lab2.2_2.1.dir/semester_two/sync/2.2/mutex/main.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\second.lab2.2_2.1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = second.lab2.2_2.1.exe
+  TARGET_IMPLIB = libsecond.lab2.2_2.1.dll.a
+  TARGET_PDB = second.lab2.2_2.1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target second.lab2.2_2.2
+
+
+#############################################
+# Order-only phony target for second.lab2.2_2.2
+
+build cmake_object_order_depends_target_second.lab2.2_2.2: phony || .
+
+build CMakeFiles/second.lab2.2_2.2.dir/semester_two/sync/2.2/mutex/mutex-queue.c.obj: C_COMPILER__second.2elab2.2e2_2.2e2_unscanned_Debug D$:/NSU/OS/semester_two/sync/2.2/mutex/mutex-queue.c || cmake_object_order_depends_target_second.lab2.2_2.2
+  DEP_FILE = CMakeFiles\second.lab2.2_2.2.dir\semester_two\sync\2.2\mutex\mutex-queue.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\second.lab2.2_2.2.dir
+  OBJECT_FILE_DIR = CMakeFiles\second.lab2.2_2.2.dir\semester_two\sync\2.2\mutex
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target second.lab2.2_2.2
+
+
+#############################################
+# Link the executable second.lab2.2_2.2.exe
+
+build second.lab2.2_2.2.exe: C_EXECUTABLE_LINKER__second.2elab2.2e2_2.2e2_Debug CMakeFiles/second.lab2.2_2.2.dir/semester_two/sync/2.2/mutex/mutex-queue.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\second.lab2.2_2.2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = second.lab2.2_2.2.exe
+  TARGET_IMPLIB = libsecond.lab2.2_2.2.dll.a
+  TARGET_PDB = second.lab2.2_2.2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target second.lab2.2_3.1
+
+
+#############################################
+# Order-only phony target for second.lab2.2_3.1
+
+build cmake_object_order_depends_target_second.lab2.2_3.1: phony || .
+
+build CMakeFiles/second.lab2.2_3.1.dir/semester_two/sync/2.2/cond/main.c.obj: C_COMPILER__second.2elab2.2e2_3.2e1_unscanned_Debug D$:/NSU/OS/semester_two/sync/2.2/cond/main.c || cmake_object_order_depends_target_second.lab2.2_3.1
+  DEP_FILE = CMakeFiles\second.lab2.2_3.1.dir\semester_two\sync\2.2\cond\main.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\second.lab2.2_3.1.dir
+  OBJECT_FILE_DIR = CMakeFiles\second.lab2.2_3.1.dir\semester_two\sync\2.2\cond
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target second.lab2.2_3.1
+
+
+#############################################
+# Link the executable second.lab2.2_3.1.exe
+
+build second.lab2.2_3.1.exe: C_EXECUTABLE_LINKER__second.2elab2.2e2_3.2e1_Debug CMakeFiles/second.lab2.2_3.1.dir/semester_two/sync/2.2/cond/main.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\second.lab2.2_3.1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = second.lab2.2_3.1.exe
+  TARGET_IMPLIB = libsecond.lab2.2_3.1.dll.a
+  TARGET_PDB = second.lab2.2_3.1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target second.lab2.2_3.2
+
+
+#############################################
+# Order-only phony target for second.lab2.2_3.2
+
+build cmake_object_order_depends_target_second.lab2.2_3.2: phony || .
+
+build CMakeFiles/second.lab2.2_3.2.dir/semester_two/sync/2.2/cond/cond-queue.c.obj: C_COMPILER__second.2elab2.2e2_3.2e2_unscanned_Debug D$:/NSU/OS/semester_two/sync/2.2/cond/cond-queue.c || cmake_object_order_depends_target_second.lab2.2_3.2
+  DEP_FILE = CMakeFiles\second.lab2.2_3.2.dir\semester_two\sync\2.2\cond\cond-queue.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\second.lab2.2_3.2.dir
+  OBJECT_FILE_DIR = CMakeFiles\second.lab2.2_3.2.dir\semester_two\sync\2.2\cond
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target second.lab2.2_3.2
+
+
+#############################################
+# Link the executable second.lab2.2_3.2.exe
+
+build second.lab2.2_3.2.exe: C_EXECUTABLE_LINKER__second.2elab2.2e2_3.2e2_Debug CMakeFiles/second.lab2.2_3.2.dir/semester_two/sync/2.2/cond/cond-queue.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\second.lab2.2_3.2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = second.lab2.2_3.2.exe
+  TARGET_IMPLIB = libsecond.lab2.2_3.2.dll.a
+  TARGET_PDB = second.lab2.2_3.2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target second.lab2.2_4.1
+
+
+#############################################
+# Order-only phony target for second.lab2.2_4.1
+
+build cmake_object_order_depends_target_second.lab2.2_4.1: phony || .
+
+build CMakeFiles/second.lab2.2_4.1.dir/semester_two/sync/2.2/semaphore/main.c.obj: C_COMPILER__second.2elab2.2e2_4.2e1_unscanned_Debug D$:/NSU/OS/semester_two/sync/2.2/semaphore/main.c || cmake_object_order_depends_target_second.lab2.2_4.1
+  DEP_FILE = CMakeFiles\second.lab2.2_4.1.dir\semester_two\sync\2.2\semaphore\main.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\second.lab2.2_4.1.dir
+  OBJECT_FILE_DIR = CMakeFiles\second.lab2.2_4.1.dir\semester_two\sync\2.2\semaphore
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target second.lab2.2_4.1
+
+
+#############################################
+# Link the executable second.lab2.2_4.1.exe
+
+build second.lab2.2_4.1.exe: C_EXECUTABLE_LINKER__second.2elab2.2e2_4.2e1_Debug CMakeFiles/second.lab2.2_4.1.dir/semester_two/sync/2.2/semaphore/main.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\second.lab2.2_4.1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = second.lab2.2_4.1.exe
+  TARGET_IMPLIB = libsecond.lab2.2_4.1.dll.a
+  TARGET_PDB = second.lab2.2_4.1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target second.lab2.2_4.2
+
+
+#############################################
+# Order-only phony target for second.lab2.2_4.2
+
+build cmake_object_order_depends_target_second.lab2.2_4.2: phony || .
+
+build CMakeFiles/second.lab2.2_4.2.dir/semester_two/sync/2.2/semaphore/sem-queue.c.obj: C_COMPILER__second.2elab2.2e2_4.2e2_unscanned_Debug D$:/NSU/OS/semester_two/sync/2.2/semaphore/sem-queue.c || cmake_object_order_depends_target_second.lab2.2_4.2
+  DEP_FILE = CMakeFiles\second.lab2.2_4.2.dir\semester_two\sync\2.2\semaphore\sem-queue.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\second.lab2.2_4.2.dir
+  OBJECT_FILE_DIR = CMakeFiles\second.lab2.2_4.2.dir\semester_two\sync\2.2\semaphore
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target second.lab2.2_4.2
+
+
+#############################################
+# Link the executable second.lab2.2_4.2.exe
+
+build second.lab2.2_4.2.exe: C_EXECUTABLE_LINKER__second.2elab2.2e2_4.2e2_Debug CMakeFiles/second.lab2.2_4.2.dir/semester_two/sync/2.2/semaphore/sem-queue.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\second.lab2.2_4.2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = second.lab2.2_4.2.exe
+  TARGET_IMPLIB = libsecond.lab2.2_4.2.dll.a
+  TARGET_PDB = second.lab2.2_4.2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target second.lab3
+
+
+#############################################
+# Order-only phony target for second.lab3
+
+build cmake_object_order_depends_target_second.lab3: phony || .
+
+build CMakeFiles/second.lab3.dir/semester_two/proxy/proxy.c.obj: C_COMPILER__second.2elab3_unscanned_Debug D$:/NSU/OS/semester_two/proxy/proxy.c || cmake_object_order_depends_target_second.lab3
+  DEP_FILE = CMakeFiles\second.lab3.dir\semester_two\proxy\proxy.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\second.lab3.dir
+  OBJECT_FILE_DIR = CMakeFiles\second.lab3.dir\semester_two\proxy
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target second.lab3
+
+
+#############################################
+# Link the executable second.lab3.exe
+
+build second.lab3.exe: C_EXECUTABLE_LINKER__second.2elab3_Debug CMakeFiles/second.lab3.dir/semester_two/proxy/proxy.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\second.lab3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = second.lab3.exe
+  TARGET_IMPLIB = libsecond.lab3.dll.a
+  TARGET_PDB = second.lab3.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D F:\NSU\OS\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.2.1\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\NSU\OS\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.2.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -1112,7 +1508,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D F:\NSU\OS\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.2.1\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SF:\NSU\OS -BF:\NSU\OS\cmake-build-debug"
+  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\NSU\OS\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.2.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\NSU\OS -BD:\NSU\OS\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1186,15 +1582,39 @@ build second.lab1.7.1: phony second.lab1.7.1.exe
 
 build second.lab1.7.2: phony second.lab1.7.2.exe
 
+build second.lab2.1.1: phony second.lab2.1.1.exe
+
+build second.lab2.1.2: phony second.lab2.1.2.exe
+
+build second.lab2.1.3: phony second.lab2.1.3.exe
+
+build second.lab2.2_1.1: phony second.lab2.2_1.1.exe
+
+build second.lab2.2_1.2: phony second.lab2.2_1.2.exe
+
+build second.lab2.2_2.1: phony second.lab2.2_2.1.exe
+
+build second.lab2.2_2.2: phony second.lab2.2_2.2.exe
+
+build second.lab2.2_3.1: phony second.lab2.2_3.1.exe
+
+build second.lab2.2_3.2: phony second.lab2.2_3.2.exe
+
+build second.lab2.2_4.1: phony second.lab2.2_4.1.exe
+
+build second.lab2.2_4.2: phony second.lab2.2_4.2.exe
+
+build second.lab3: phony second.lab3.exe
+
 # =============================================================================
 # Folder targets.
 
 # =============================================================================
 
 #############################################
-# Folder: F:/NSU/OS/cmake-build-debug
+# Folder: D:/NSU/OS/cmake-build-debug
 
-build all: phony first.lab1.1.exe first.lab1.2.1.exe first.lab1.2.2.exe first.lab3.1.exe first.lab3.2.exe first.lab4.1.exe first.lab4.2.1.exe first.lab4.2.2.exe first.lab5.1.exe first.lab5.2.1.exe first.lab5.2.2.exe first.lab6.1.1.exe first.lab6.1.2.exe first.lab6.2.exe first.lab7.1.1.exe first.lab7.1.2.exe first.lab7.2.1.exe first.lab7.2.2.exe first.lab8.1.exe first.lab8.2.exe second.lab1.1.1.exe second.lab1.1.2.exe second.lab1.2.1.exe second.lab1.2.2.exe second.lab1.3.exe second.lab1.4.1.exe second.lab1.4.2.exe second.lab1.5.exe second.lab1.6.1.exe second.lab1.6.2.exe second.lab1.7.1.exe second.lab1.7.2.exe
+build all: phony first.lab1.1.exe first.lab1.2.1.exe first.lab1.2.2.exe first.lab3.1.exe first.lab3.2.exe first.lab4.1.exe first.lab4.2.1.exe first.lab4.2.2.exe first.lab5.1.exe first.lab5.2.1.exe first.lab5.2.2.exe first.lab6.1.1.exe first.lab6.1.2.exe first.lab6.2.exe first.lab7.1.1.exe first.lab7.1.2.exe first.lab7.2.1.exe first.lab7.2.2.exe first.lab8.1.exe first.lab8.2.exe second.lab1.1.1.exe second.lab1.1.2.exe second.lab1.2.1.exe second.lab1.2.2.exe second.lab1.3.exe second.lab1.4.1.exe second.lab1.4.2.exe second.lab1.5.exe second.lab1.6.1.exe second.lab1.6.2.exe second.lab1.7.1.exe second.lab1.7.2.exe second.lab2.1.1.exe second.lab2.1.2.exe second.lab2.1.3.exe second.lab2.2_1.1.exe second.lab2.2_1.2.exe second.lab2.2_2.1.exe second.lab2.2_2.2.exe second.lab2.2_3.1.exe second.lab2.2_3.2.exe second.lab2.2_4.1.exe second.lab2.2_4.2.exe second.lab3.exe
 
 # =============================================================================
 # Built-in targets
@@ -1203,14 +1623,14 @@ build all: phony first.lab1.1.exe first.lab1.2.1.exe first.lab1.2.2.exe first.la
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake F$:/NSU/OS/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake D$:/NSU/OS/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.1/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake F$:/NSU/OS/CMakeLists.txt: phony
+build C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2024.2.3/bin/cmake/win/x64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/3.29.6/CMakeCCompiler.cmake CMakeFiles/3.29.6/CMakeCXXCompiler.cmake CMakeFiles/3.29.6/CMakeRCCompiler.cmake CMakeFiles/3.29.6/CMakeSystem.cmake D$:/NSU/OS/CMakeLists.txt: phony
 
 
 #############################################

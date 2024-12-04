@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2024.2.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2024.2.1/bin/ninja/win/x64/ninja.exe" -G Ninja -S F:\NSU\OS -B F:\NSU\OS\cmake-build-debug
+"C:\Program Files\JetBrains\CLion 2024.2.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2024.2.3/bin/ninja/win/x64/ninja.exe" -G Ninja -S D:\NSU\OS -B D:\NSU\OS\cmake-build-debug
 -- Configuring done (0.2s)
--- Generating done (1.5s)
--- Build files have been written to: F:/NSU/OS/cmake-build-debug
+-- Generating done (2.4s)
+-- Build files have been written to: D:/NSU/OS/cmake-build-debug
