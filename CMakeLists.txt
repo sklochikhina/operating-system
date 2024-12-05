@@ -70,4 +70,14 @@ add_executable(second.lab2.2_3.2 "semester_two/sync/2.2/cond/cond-queue.c")
 add_executable(second.lab2.2_4.1 "semester_two/sync/2.2/semaphore/main.c")
 add_executable(second.lab2.2_4.2 "semester_two/sync/2.2/semaphore/sem-queue.c")
 
+add_executable(second.lab2.3.1 "semester_two/sync/2.3/mutex/main.c")
+add_executable(second.lab2.3.2 "semester_two/sync/2.3/spinlock/main.c")
+add_executable(second.lab2.3.3 "semester_two/sync/2.3/rwlock/main.c")
+
+add_executable(second.lab2.4_1.1 "semester_two/sync/2.4/spinlock/main.c")
+add_executable(second.lab2.4_1.2 "semester_two/sync/2.4/spinlock/spinlock.c")
+
+add_executable(second.lab2.4_2.1 "semester_two/sync/2.4/mutex/main.c")
+add_executable(second.lab2.4_2.2 "semester_two/sync/2.4/mutex/mutex.c")
+
 add_executable(second.lab3 "semester_two/proxy/proxy.c")

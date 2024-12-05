@@ -1460,6 +1460,237 @@ build second.lab2.2_4.2.exe: C_EXECUTABLE_LINKER__second.2elab2.2e2_4.2e2_Debug 
   TARGET_PDB = second.lab2.2_4.2.exe.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target second.lab2.3.1
+
+
+#############################################
+# Order-only phony target for second.lab2.3.1
+
+build cmake_object_order_depends_target_second.lab2.3.1: phony || .
+
+build CMakeFiles/second.lab2.3.1.dir/semester_two/sync/2.3/mutex/main.c.obj: C_COMPILER__second.2elab2.2e3.2e1_unscanned_Debug D$:/NSU/OS/semester_two/sync/2.3/mutex/main.c || cmake_object_order_depends_target_second.lab2.3.1
+  DEP_FILE = CMakeFiles\second.lab2.3.1.dir\semester_two\sync\2.3\mutex\main.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\second.lab2.3.1.dir
+  OBJECT_FILE_DIR = CMakeFiles\second.lab2.3.1.dir\semester_two\sync\2.3\mutex
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target second.lab2.3.1
+
+
+#############################################
+# Link the executable second.lab2.3.1.exe
+
+build second.lab2.3.1.exe: C_EXECUTABLE_LINKER__second.2elab2.2e3.2e1_Debug CMakeFiles/second.lab2.3.1.dir/semester_two/sync/2.3/mutex/main.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\second.lab2.3.1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = second.lab2.3.1.exe
+  TARGET_IMPLIB = libsecond.lab2.3.1.dll.a
+  TARGET_PDB = second.lab2.3.1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target second.lab2.3.2
+
+
+#############################################
+# Order-only phony target for second.lab2.3.2
+
+build cmake_object_order_depends_target_second.lab2.3.2: phony || .
+
+build CMakeFiles/second.lab2.3.2.dir/semester_two/sync/2.3/spinlock/main.c.obj: C_COMPILER__second.2elab2.2e3.2e2_unscanned_Debug D$:/NSU/OS/semester_two/sync/2.3/spinlock/main.c || cmake_object_order_depends_target_second.lab2.3.2
+  DEP_FILE = CMakeFiles\second.lab2.3.2.dir\semester_two\sync\2.3\spinlock\main.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\second.lab2.3.2.dir
+  OBJECT_FILE_DIR = CMakeFiles\second.lab2.3.2.dir\semester_two\sync\2.3\spinlock
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target second.lab2.3.2
+
+
+#############################################
+# Link the executable second.lab2.3.2.exe
+
+build second.lab2.3.2.exe: C_EXECUTABLE_LINKER__second.2elab2.2e3.2e2_Debug CMakeFiles/second.lab2.3.2.dir/semester_two/sync/2.3/spinlock/main.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\second.lab2.3.2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = second.lab2.3.2.exe
+  TARGET_IMPLIB = libsecond.lab2.3.2.dll.a
+  TARGET_PDB = second.lab2.3.2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target second.lab2.3.3
+
+
+#############################################
+# Order-only phony target for second.lab2.3.3
+
+build cmake_object_order_depends_target_second.lab2.3.3: phony || .
+
+build CMakeFiles/second.lab2.3.3.dir/semester_two/sync/2.3/rwlock/main.c.obj: C_COMPILER__second.2elab2.2e3.2e3_unscanned_Debug D$:/NSU/OS/semester_two/sync/2.3/rwlock/main.c || cmake_object_order_depends_target_second.lab2.3.3
+  DEP_FILE = CMakeFiles\second.lab2.3.3.dir\semester_two\sync\2.3\rwlock\main.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\second.lab2.3.3.dir
+  OBJECT_FILE_DIR = CMakeFiles\second.lab2.3.3.dir\semester_two\sync\2.3\rwlock
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target second.lab2.3.3
+
+
+#############################################
+# Link the executable second.lab2.3.3.exe
+
+build second.lab2.3.3.exe: C_EXECUTABLE_LINKER__second.2elab2.2e3.2e3_Debug CMakeFiles/second.lab2.3.3.dir/semester_two/sync/2.3/rwlock/main.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\second.lab2.3.3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = second.lab2.3.3.exe
+  TARGET_IMPLIB = libsecond.lab2.3.3.dll.a
+  TARGET_PDB = second.lab2.3.3.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target second.lab2.4_1.1
+
+
+#############################################
+# Order-only phony target for second.lab2.4_1.1
+
+build cmake_object_order_depends_target_second.lab2.4_1.1: phony || .
+
+build CMakeFiles/second.lab2.4_1.1.dir/semester_two/sync/2.4/spinlock/main.c.obj: C_COMPILER__second.2elab2.2e4_1.2e1_unscanned_Debug D$:/NSU/OS/semester_two/sync/2.4/spinlock/main.c || cmake_object_order_depends_target_second.lab2.4_1.1
+  DEP_FILE = CMakeFiles\second.lab2.4_1.1.dir\semester_two\sync\2.4\spinlock\main.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\second.lab2.4_1.1.dir
+  OBJECT_FILE_DIR = CMakeFiles\second.lab2.4_1.1.dir\semester_two\sync\2.4\spinlock
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target second.lab2.4_1.1
+
+
+#############################################
+# Link the executable second.lab2.4_1.1.exe
+
+build second.lab2.4_1.1.exe: C_EXECUTABLE_LINKER__second.2elab2.2e4_1.2e1_Debug CMakeFiles/second.lab2.4_1.1.dir/semester_two/sync/2.4/spinlock/main.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\second.lab2.4_1.1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = second.lab2.4_1.1.exe
+  TARGET_IMPLIB = libsecond.lab2.4_1.1.dll.a
+  TARGET_PDB = second.lab2.4_1.1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target second.lab2.4_1.2
+
+
+#############################################
+# Order-only phony target for second.lab2.4_1.2
+
+build cmake_object_order_depends_target_second.lab2.4_1.2: phony || .
+
+build CMakeFiles/second.lab2.4_1.2.dir/semester_two/sync/2.4/spinlock/spinlock.c.obj: C_COMPILER__second.2elab2.2e4_1.2e2_unscanned_Debug D$:/NSU/OS/semester_two/sync/2.4/spinlock/spinlock.c || cmake_object_order_depends_target_second.lab2.4_1.2
+  DEP_FILE = CMakeFiles\second.lab2.4_1.2.dir\semester_two\sync\2.4\spinlock\spinlock.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\second.lab2.4_1.2.dir
+  OBJECT_FILE_DIR = CMakeFiles\second.lab2.4_1.2.dir\semester_two\sync\2.4\spinlock
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target second.lab2.4_1.2
+
+
+#############################################
+# Link the executable second.lab2.4_1.2.exe
+
+build second.lab2.4_1.2.exe: C_EXECUTABLE_LINKER__second.2elab2.2e4_1.2e2_Debug CMakeFiles/second.lab2.4_1.2.dir/semester_two/sync/2.4/spinlock/spinlock.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\second.lab2.4_1.2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = second.lab2.4_1.2.exe
+  TARGET_IMPLIB = libsecond.lab2.4_1.2.dll.a
+  TARGET_PDB = second.lab2.4_1.2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target second.lab2.4_2.1
+
+
+#############################################
+# Order-only phony target for second.lab2.4_2.1
+
+build cmake_object_order_depends_target_second.lab2.4_2.1: phony || .
+
+build CMakeFiles/second.lab2.4_2.1.dir/semester_two/sync/2.4/mutex/main.c.obj: C_COMPILER__second.2elab2.2e4_2.2e1_unscanned_Debug D$:/NSU/OS/semester_two/sync/2.4/mutex/main.c || cmake_object_order_depends_target_second.lab2.4_2.1
+  DEP_FILE = CMakeFiles\second.lab2.4_2.1.dir\semester_two\sync\2.4\mutex\main.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\second.lab2.4_2.1.dir
+  OBJECT_FILE_DIR = CMakeFiles\second.lab2.4_2.1.dir\semester_two\sync\2.4\mutex
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target second.lab2.4_2.1
+
+
+#############################################
+# Link the executable second.lab2.4_2.1.exe
+
+build second.lab2.4_2.1.exe: C_EXECUTABLE_LINKER__second.2elab2.2e4_2.2e1_Debug CMakeFiles/second.lab2.4_2.1.dir/semester_two/sync/2.4/mutex/main.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\second.lab2.4_2.1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = second.lab2.4_2.1.exe
+  TARGET_IMPLIB = libsecond.lab2.4_2.1.dll.a
+  TARGET_PDB = second.lab2.4_2.1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target second.lab2.4_2.2
+
+
+#############################################
+# Order-only phony target for second.lab2.4_2.2
+
+build cmake_object_order_depends_target_second.lab2.4_2.2: phony || .
+
+build CMakeFiles/second.lab2.4_2.2.dir/semester_two/sync/2.4/mutex/mutex.c.obj: C_COMPILER__second.2elab2.2e4_2.2e2_unscanned_Debug D$:/NSU/OS/semester_two/sync/2.4/mutex/mutex.c || cmake_object_order_depends_target_second.lab2.4_2.2
+  DEP_FILE = CMakeFiles\second.lab2.4_2.2.dir\semester_two\sync\2.4\mutex\mutex.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\second.lab2.4_2.2.dir
+  OBJECT_FILE_DIR = CMakeFiles\second.lab2.4_2.2.dir\semester_two\sync\2.4\mutex
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target second.lab2.4_2.2
+
+
+#############################################
+# Link the executable second.lab2.4_2.2.exe
+
+build second.lab2.4_2.2.exe: C_EXECUTABLE_LINKER__second.2elab2.2e4_2.2e2_Debug CMakeFiles/second.lab2.4_2.2.dir/semester_two/sync/2.4/mutex/mutex.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\second.lab2.4_2.2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = second.lab2.4_2.2.exe
+  TARGET_IMPLIB = libsecond.lab2.4_2.2.dll.a
+  TARGET_PDB = second.lab2.4_2.2.exe.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target second.lab3
 
 
@@ -1604,6 +1835,20 @@ build second.lab2.2_4.1: phony second.lab2.2_4.1.exe
 
 build second.lab2.2_4.2: phony second.lab2.2_4.2.exe
 
+build second.lab2.3.1: phony second.lab2.3.1.exe
+
+build second.lab2.3.2: phony second.lab2.3.2.exe
+
+build second.lab2.3.3: phony second.lab2.3.3.exe
+
+build second.lab2.4_1.1: phony second.lab2.4_1.1.exe
+
+build second.lab2.4_1.2: phony second.lab2.4_1.2.exe
+
+build second.lab2.4_2.1: phony second.lab2.4_2.1.exe
+
+build second.lab2.4_2.2: phony second.lab2.4_2.2.exe
+
 build second.lab3: phony second.lab3.exe
 
 # =============================================================================
@@ -1614,7 +1859,7 @@ build second.lab3: phony second.lab3.exe
 #############################################
 # Folder: D:/NSU/OS/cmake-build-debug
 
-build all: phony first.lab1.1.exe first.lab1.2.1.exe first.lab1.2.2.exe first.lab3.1.exe first.lab3.2.exe first.lab4.1.exe first.lab4.2.1.exe first.lab4.2.2.exe first.lab5.1.exe first.lab5.2.1.exe first.lab5.2.2.exe first.lab6.1.1.exe first.lab6.1.2.exe first.lab6.2.exe first.lab7.1.1.exe first.lab7.1.2.exe first.lab7.2.1.exe first.lab7.2.2.exe first.lab8.1.exe first.lab8.2.exe second.lab1.1.1.exe second.lab1.1.2.exe second.lab1.2.1.exe second.lab1.2.2.exe second.lab1.3.exe second.lab1.4.1.exe second.lab1.4.2.exe second.lab1.5.exe second.lab1.6.1.exe second.lab1.6.2.exe second.lab1.7.1.exe second.lab1.7.2.exe second.lab2.1.1.exe second.lab2.1.2.exe second.lab2.1.3.exe second.lab2.2_1.1.exe second.lab2.2_1.2.exe second.lab2.2_2.1.exe second.lab2.2_2.2.exe second.lab2.2_3.1.exe second.lab2.2_3.2.exe second.lab2.2_4.1.exe second.lab2.2_4.2.exe second.lab3.exe
+build all: phony first.lab1.1.exe first.lab1.2.1.exe first.lab1.2.2.exe first.lab3.1.exe first.lab3.2.exe first.lab4.1.exe first.lab4.2.1.exe first.lab4.2.2.exe first.lab5.1.exe first.lab5.2.1.exe first.lab5.2.2.exe first.lab6.1.1.exe first.lab6.1.2.exe first.lab6.2.exe first.lab7.1.1.exe first.lab7.1.2.exe first.lab7.2.1.exe first.lab7.2.2.exe first.lab8.1.exe first.lab8.2.exe second.lab1.1.1.exe second.lab1.1.2.exe second.lab1.2.1.exe second.lab1.2.2.exe second.lab1.3.exe second.lab1.4.1.exe second.lab1.4.2.exe second.lab1.5.exe second.lab1.6.1.exe second.lab1.6.2.exe second.lab1.7.1.exe second.lab1.7.2.exe second.lab2.1.1.exe second.lab2.1.2.exe second.lab2.1.3.exe second.lab2.2_1.1.exe second.lab2.2_1.2.exe second.lab2.2_2.1.exe second.lab2.2_2.2.exe second.lab2.2_3.1.exe second.lab2.2_3.2.exe second.lab2.2_4.1.exe second.lab2.2_4.2.exe second.lab2.3.1.exe second.lab2.3.2.exe second.lab2.3.3.exe second.lab2.4_1.1.exe second.lab2.4_1.2.exe second.lab2.4_2.1.exe second.lab2.4_2.2.exe second.lab3.exe
 
 # =============================================================================
 # Built-in targets
