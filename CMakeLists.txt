@@ -80,4 +80,7 @@ add_executable(second.lab2.4_1.2 "semester_two/sync/2.4/spinlock/spinlock.c")
 add_executable(second.lab2.4_2.1 "semester_two/sync/2.4/mutex/main.c")
 add_executable(second.lab2.4_2.2 "semester_two/sync/2.4/mutex/mutex.c")
 
-add_executable(second.lab3 "semester_two/proxy/proxy.c")
+add_executable(second.lab3 "semester_two/cache-proxy/main.c")
+add_executable(second.lab3.1 "semester_two/cache-proxy/proxy.c")
+add_executable(second.lab3.2 "semester_two/cache-proxy/http_request.c")
+add_executable(second.lab3.3 "semester_two/cache-proxy/cache.c")

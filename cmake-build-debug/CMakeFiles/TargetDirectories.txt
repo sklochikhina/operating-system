@@ -49,5 +49,8 @@ D:/NSU/OS/cmake-build-debug/CMakeFiles/second.lab2.4_1.2.dir
 D:/NSU/OS/cmake-build-debug/CMakeFiles/second.lab2.4_2.1.dir
 D:/NSU/OS/cmake-build-debug/CMakeFiles/second.lab2.4_2.2.dir
 D:/NSU/OS/cmake-build-debug/CMakeFiles/second.lab3.dir
+D:/NSU/OS/cmake-build-debug/CMakeFiles/second.lab3.1.dir
+D:/NSU/OS/cmake-build-debug/CMakeFiles/second.lab3.2.dir
+D:/NSU/OS/cmake-build-debug/CMakeFiles/second.lab3.3.dir
 D:/NSU/OS/cmake-build-debug/CMakeFiles/edit_cache.dir
 D:/NSU/OS/cmake-build-debug/CMakeFiles/rebuild_cache.dir

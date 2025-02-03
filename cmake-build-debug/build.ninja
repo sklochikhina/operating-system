@@ -1699,11 +1699,11 @@ build second.lab2.4_2.2.exe: C_EXECUTABLE_LINKER__second.2elab2.2e4_2.2e2_Debug 
 
 build cmake_object_order_depends_target_second.lab3: phony || .
 
-build CMakeFiles/second.lab3.dir/semester_two/proxy/proxy.c.obj: C_COMPILER__second.2elab3_unscanned_Debug D$:/NSU/OS/semester_two/proxy/proxy.c || cmake_object_order_depends_target_second.lab3
-  DEP_FILE = CMakeFiles\second.lab3.dir\semester_two\proxy\proxy.c.obj.d
+build CMakeFiles/second.lab3.dir/semester_two/cache-proxy/main.c.obj: C_COMPILER__second.2elab3_unscanned_Debug D$:/NSU/OS/semester_two/cache-proxy/main.c || cmake_object_order_depends_target_second.lab3
+  DEP_FILE = CMakeFiles\second.lab3.dir\semester_two\cache-proxy\main.c.obj.d
   FLAGS = -g -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\second.lab3.dir
-  OBJECT_FILE_DIR = CMakeFiles\second.lab3.dir\semester_two\proxy
+  OBJECT_FILE_DIR = CMakeFiles\second.lab3.dir\semester_two\cache-proxy
 
 
 # =============================================================================
@@ -1713,7 +1713,7 @@ build CMakeFiles/second.lab3.dir/semester_two/proxy/proxy.c.obj: C_COMPILER__sec
 #############################################
 # Link the executable second.lab3.exe
 
-build second.lab3.exe: C_EXECUTABLE_LINKER__second.2elab3_Debug CMakeFiles/second.lab3.dir/semester_two/proxy/proxy.c.obj
+build second.lab3.exe: C_EXECUTABLE_LINKER__second.2elab3_Debug CMakeFiles/second.lab3.dir/semester_two/cache-proxy/main.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\second.lab3.dir
@@ -1723,12 +1723,111 @@ build second.lab3.exe: C_EXECUTABLE_LINKER__second.2elab3_Debug CMakeFiles/secon
   TARGET_IMPLIB = libsecond.lab3.dll.a
   TARGET_PDB = second.lab3.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target second.lab3.1
+
+
+#############################################
+# Order-only phony target for second.lab3.1
+
+build cmake_object_order_depends_target_second.lab3.1: phony || .
+
+build CMakeFiles/second.lab3.1.dir/semester_two/cache-proxy/proxy.c.obj: C_COMPILER__second.2elab3.2e1_unscanned_Debug D$:/NSU/OS/semester_two/cache-proxy/proxy.c || cmake_object_order_depends_target_second.lab3.1
+  DEP_FILE = CMakeFiles\second.lab3.1.dir\semester_two\cache-proxy\proxy.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\second.lab3.1.dir
+  OBJECT_FILE_DIR = CMakeFiles\second.lab3.1.dir\semester_two\cache-proxy
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target second.lab3.1
+
+
+#############################################
+# Link the executable second.lab3.1.exe
+
+build second.lab3.1.exe: C_EXECUTABLE_LINKER__second.2elab3.2e1_Debug CMakeFiles/second.lab3.1.dir/semester_two/cache-proxy/proxy.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\second.lab3.1.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = second.lab3.1.exe
+  TARGET_IMPLIB = libsecond.lab3.1.dll.a
+  TARGET_PDB = second.lab3.1.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target second.lab3.2
+
+
+#############################################
+# Order-only phony target for second.lab3.2
+
+build cmake_object_order_depends_target_second.lab3.2: phony || .
+
+build CMakeFiles/second.lab3.2.dir/semester_two/cache-proxy/http_request.c.obj: C_COMPILER__second.2elab3.2e2_unscanned_Debug D$:/NSU/OS/semester_two/cache-proxy/http_request.c || cmake_object_order_depends_target_second.lab3.2
+  DEP_FILE = CMakeFiles\second.lab3.2.dir\semester_two\cache-proxy\http_request.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\second.lab3.2.dir
+  OBJECT_FILE_DIR = CMakeFiles\second.lab3.2.dir\semester_two\cache-proxy
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target second.lab3.2
+
+
+#############################################
+# Link the executable second.lab3.2.exe
+
+build second.lab3.2.exe: C_EXECUTABLE_LINKER__second.2elab3.2e2_Debug CMakeFiles/second.lab3.2.dir/semester_two/cache-proxy/http_request.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\second.lab3.2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = second.lab3.2.exe
+  TARGET_IMPLIB = libsecond.lab3.2.dll.a
+  TARGET_PDB = second.lab3.2.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target second.lab3.3
+
+
+#############################################
+# Order-only phony target for second.lab3.3
+
+build cmake_object_order_depends_target_second.lab3.3: phony || .
+
+build CMakeFiles/second.lab3.3.dir/semester_two/cache-proxy/cache.c.obj: C_COMPILER__second.2elab3.2e3_unscanned_Debug D$:/NSU/OS/semester_two/cache-proxy/cache.c || cmake_object_order_depends_target_second.lab3.3
+  DEP_FILE = CMakeFiles\second.lab3.3.dir\semester_two\cache-proxy\cache.c.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\second.lab3.3.dir
+  OBJECT_FILE_DIR = CMakeFiles\second.lab3.3.dir\semester_two\cache-proxy
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target second.lab3.3
+
+
+#############################################
+# Link the executable second.lab3.3.exe
+
+build second.lab3.3.exe: C_EXECUTABLE_LINKER__second.2elab3.2e3_Debug CMakeFiles/second.lab3.3.dir/semester_two/cache-proxy/cache.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\second.lab3.3.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = second.lab3.3.exe
+  TARGET_IMPLIB = libsecond.lab3.3.dll.a
+  TARGET_PDB = second.lab3.3.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\NSU\OS\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.2.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\NSU\OS\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.2.3\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -1739,7 +1838,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\Windows\system32\cmd.exe /C "cd /D D:\NSU\OS\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.2.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\NSU\OS -BD:\NSU\OS\cmake-build-debug"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D D:\NSU\OS\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2024.2.3\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\NSU\OS -BD:\NSU\OS\cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -1851,6 +1950,12 @@ build second.lab2.4_2.2: phony second.lab2.4_2.2.exe
 
 build second.lab3: phony second.lab3.exe
 
+build second.lab3.1: phony second.lab3.1.exe
+
+build second.lab3.2: phony second.lab3.2.exe
+
+build second.lab3.3: phony second.lab3.3.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -1859,7 +1964,7 @@ build second.lab3: phony second.lab3.exe
 #############################################
 # Folder: D:/NSU/OS/cmake-build-debug
 
-build all: phony first.lab1.1.exe first.lab1.2.1.exe first.lab1.2.2.exe first.lab3.1.exe first.lab3.2.exe first.lab4.1.exe first.lab4.2.1.exe first.lab4.2.2.exe first.lab5.1.exe first.lab5.2.1.exe first.lab5.2.2.exe first.lab6.1.1.exe first.lab6.1.2.exe first.lab6.2.exe first.lab7.1.1.exe first.lab7.1.2.exe first.lab7.2.1.exe first.lab7.2.2.exe first.lab8.1.exe first.lab8.2.exe second.lab1.1.1.exe second.lab1.1.2.exe second.lab1.2.1.exe second.lab1.2.2.exe second.lab1.3.exe second.lab1.4.1.exe second.lab1.4.2.exe second.lab1.5.exe second.lab1.6.1.exe second.lab1.6.2.exe second.lab1.7.1.exe second.lab1.7.2.exe second.lab2.1.1.exe second.lab2.1.2.exe second.lab2.1.3.exe second.lab2.2_1.1.exe second.lab2.2_1.2.exe second.lab2.2_2.1.exe second.lab2.2_2.2.exe second.lab2.2_3.1.exe second.lab2.2_3.2.exe second.lab2.2_4.1.exe second.lab2.2_4.2.exe second.lab2.3.1.exe second.lab2.3.2.exe second.lab2.3.3.exe second.lab2.4_1.1.exe second.lab2.4_1.2.exe second.lab2.4_2.1.exe second.lab2.4_2.2.exe second.lab3.exe
+build all: phony first.lab1.1.exe first.lab1.2.1.exe first.lab1.2.2.exe first.lab3.1.exe first.lab3.2.exe first.lab4.1.exe first.lab4.2.1.exe first.lab4.2.2.exe first.lab5.1.exe first.lab5.2.1.exe first.lab5.2.2.exe first.lab6.1.1.exe first.lab6.1.2.exe first.lab6.2.exe first.lab7.1.1.exe first.lab7.1.2.exe first.lab7.2.1.exe first.lab7.2.2.exe first.lab8.1.exe first.lab8.2.exe second.lab1.1.1.exe second.lab1.1.2.exe second.lab1.2.1.exe second.lab1.2.2.exe second.lab1.3.exe second.lab1.4.1.exe second.lab1.4.2.exe second.lab1.5.exe second.lab1.6.1.exe second.lab1.6.2.exe second.lab1.7.1.exe second.lab1.7.2.exe second.lab2.1.1.exe second.lab2.1.2.exe second.lab2.1.3.exe second.lab2.2_1.1.exe second.lab2.2_1.2.exe second.lab2.2_2.1.exe second.lab2.2_2.2.exe second.lab2.2_3.1.exe second.lab2.2_3.2.exe second.lab2.2_4.1.exe second.lab2.2_4.2.exe second.lab2.3.1.exe second.lab2.3.2.exe second.lab2.3.3.exe second.lab2.4_1.1.exe second.lab2.4_1.2.exe second.lab2.4_2.1.exe second.lab2.4_2.2.exe second.lab3.exe second.lab3.1.exe second.lab3.2.exe second.lab3.3.exe
 
 # =============================================================================
 # Built-in targets
